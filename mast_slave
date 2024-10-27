@@ -3,7 +3,7 @@ Click on Nodes then click create new.
 Now give the name for your node and select permanent agent then click create. 
 Now give the description (Not necessary) Select the Number of executers(2). 
 Give the directory for storing all node related files(you make one then copy path)
-give lable name and remeber it
+give lable name and remeber it(write in notepad)
 Now take rest the same and click on Save. 
 For connecting your newly created Node or Agent you have to run the below command on cmd or any terminal which you want(Windows one check).But do not run it
 But first, you have to download curl. 
