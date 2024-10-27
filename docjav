@@ -1,0 +1,23 @@
+create a folder
+dockerfile (download extension)
+
+FROM openjdk:latest
+WORKDIR /app
+COPY . /app
+RUN javac sample.java
+CMD ["java","sample"]
+
+create a sample.java
+public class sample{
+    public static void main(String[] args) {
+        System.out.println("Hello You !");
+    }
+}
+
+
+docker build -t myjavaapp .
+docker images
+docker run --name java1 myjavaapp
+docker ps -a
+
+then go to docker deskstop and go to containers and click on name part
