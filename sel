@@ -1,8 +1,27 @@
-Install Eclipse IDE
-•	Download Eclipse:
+C:\Users\irfan\eclipse-workspace
 o	Download the "Eclipse IDE for Java Developers" package.
-•	Install Eclipse:
 o	Once downloaded, run the installer and choose the default installation options.
-•	Launch Eclipse:
+
 Create a new Maven project
 click on create a simple maven project
+if it is giving error in project tag go to windows , preferences and then go to maven and Download repository indexes on startup 
+click on apply and close
+past pom.xml it should come in project tag only
+and past from below version tag
+same app.java in src/main/java copy
+
+create a repository
+in git bash
+cd then go to "C:\Users\irfan\eclipse-workspace\ops" paste it
+git init
+git branch -m main
+git remote add origin [add your repository link do not add brackets]
+git add .
+git commit -m "Done"
+git push -u origin main
+
+refresh the page copy the url
+then go to jenkins and create maven project
+
+Source Code Management select git
+and build the project
