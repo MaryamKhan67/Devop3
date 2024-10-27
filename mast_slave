@@ -1,0 +1,18 @@
+Go to Manage Jenkins. 
+Click on Nodes then click create new.
+Now give the name for your node and select permanent agent then click create. 
+Now give the description (Not necessary) Select the Number of executers(2). 
+Give the directory for storing all node related files(you make one then copy path)
+give lable name and remeber it
+Now take rest the same and click on Save. 
+For connecting your newly created Node or Agent you have to run the below command on cmd or any terminal which you want(Windows one check).But do not run it
+But first, you have to download curl. 
+For this go to any browser and just search curl download and then select the version and download.(select first)
+After that extract the downloaded folder.(and copy the bin address)
+Now go to system variables edit and paste the path of the bin you have copied
+Now go to Manage Jenkins and then select security then go to the Agents section and select Random then click on save. 
+Now  open the folder (of line 5) in cmd and paste the jenkins windows command
+Now on the last line it shows Connected.
+Now go to dashboard and click on new Item give the name and select freestyle then click on ok. 
+Now give the description(if you want) after that select the RESTRICT where this project can be run and enter the LABEL which you create at the time of creation of node. 
+Now select git and paste your project (Jenkins and Maven)repository then save all the configuration and then click on Build Now
