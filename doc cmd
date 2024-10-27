@@ -1,0 +1,17 @@
+install docker
+if giving docker engine not working problem click on system tray and check for updates and restart
+or go on services then restart the docker
+cmds
+docker --version
+docker pull ubuntu (pull image)
+docker run -it ubuntu(update package list)
+apt install curl(install a package)
+exit (exit the container)
+docker images (list all images)
+docker run -it ubuntu (run container)
+docker ps (list running container)
+docker ps -a (list all containers)
+docker start [conatiner id do not add braces]
+docker stop [conatiner id do not add braces]
+docker restart [conatiner id do not add braces]
+docker logs [conatiner id do not add braces]
