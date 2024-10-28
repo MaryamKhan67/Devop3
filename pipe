@@ -28,3 +28,21 @@ copy the war path
 paste it and add file: before the copied path
 then go to http://localhost:9090/roshambo/#
 deployed
+
+
+
+
+for unistalling
+stop the service
+
+Remove the Installation Directory:
+Navigate to the directory where Tomcat is installed (e.g., C:\Program Files\Apache Software Foundation\Tomcat X.x).
+Delete the entire Tomcat folder.
+
+Remove Environment Variables (if applicable):
+Right-click on This PC or My Computer, and select Properties.
+Click on Advanced system settings.
+Click on the Environment Variables button.
+Look for any Tomcat-related variables (e.g., CATALINA_HOME, CATALINA_BASE) and delete them.
+Without spaces: sc delete Tomcat11.0
+With spaces (only if necessary): sc delete "Tomcat 11.0"
