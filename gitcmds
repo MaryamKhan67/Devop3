@@ -1,0 +1,17 @@
+first create a repository
+then 
+$ git config --global user.name "MaryamKhan67"
+$ git config --global user.email "khanworkmaryam@gmail.com"
+
+then do cd
+
+
+
+
+to logout
+control panel -> credential manager -> windows credentials
+git config --global --unset user.name
+git config --global --unset user.email
+rm ~/.bash_history
+> ~/.bash_history
+history -c
