@@ -1,1 +1,20 @@
+first install apache tomcat 11.o
+then please KEEP LOCAL HOST 9090
+give your username and password
+if you didnt give it will be in C:\Program Files\Apache Software Foundation\Tomcat 11.0\conf (users.xml)
+ur is running without that changes but just to be sure
+(in the manual in jenkins file also changed username and password to tomcat one)
 
+then go to jenkins and create a pipeline project 
+in defination select script from scm 
+in scm select git and paste the repository
+and build it
+
+then go to http://localhost:9090/manager/html 
+enter creadentials
+the scroll down and go to war or directory path under XML Configuration file path
+BEFORE that go to pipeline overview and go to deploy to tomcat and then go to war path
+copy the war path
+paste it and add file: before the copied path
+then go to http://localhost:9090/roshambo/#
+deployed
