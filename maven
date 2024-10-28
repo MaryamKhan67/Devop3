@@ -1,3 +1,8 @@
+netstat -ano | findstr :8080
+taskkill /PID <YourPID> /F
+netstat -ano | findstr :8080 (if 8080 is not free)
+
+download maven plugins
 create a maven project
 put the repo link
 build it
