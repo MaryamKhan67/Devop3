@@ -1,5 +1,5 @@
-$ git config --global user.name "MaryamKhan67"
-$ git config --global user.email "khanworkmaryam@gmail.com"
+git config --global user.name "MaryamKhan67"
+git config --global user.email "khanworkmaryam@gmail.com"
 
 then do cd
 Create a repository on GitHub
