@@ -20,4 +20,7 @@ docker images
 docker run --name java1 myjavaapp
 docker ps -a
 
-then go to docker deskstop and go to containers and click on name part
+then go to docker deskstop 
+go to images 
+then go to containers and click on name part
+and run it
