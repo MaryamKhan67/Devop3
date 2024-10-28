@@ -1,0 +1,115 @@
+login into maryam.232467.it@mhssce.ac.in
+then click on your name component
+the select team managed
+then click on go to backlog
+enable epics
+assign work to people
+
+Epics
+User Account Management
+Cataloging and Inventory
+Book Borrowing and Returning
+Reservation and Hold System
+Fine and Fee Management
+Reporting and Analytics
+
+
+Child Issues
+-> User Account Management
+Create user registration flow
+Implement user login functionality
+Set up user profile and account management
+Develop role-based access control (e.g., admin, librarian, member)
+Enable password reset and account recovery options
+
+->Cataloging and Inventory
+Design catalog entry and update system for new books
+Integrate search functionality by title, author, and genre
+Create inventory tracking for book availability
+Automate catalog syncing with book databases (if applicable)
+Add functionality to update book metadata
+
+->Book Borrowing and Returning
+Implement borrow/return system
+Develop book due date and renewal feature
+Notify users of overdue books
+Create user borrowing history log
+Integrate barcode scanning for easy checkouts
+
+->Reservation and Hold System
+Enable users to reserve books currently on loan
+Notify users when reserved books are available
+Develop waiting list system for high-demand books
+Set up automatic cancellation for unclaimed holds
+Track hold durations and release holds as needed
+
+->Fine and Fee Management
+Implement overdue fine calculation
+Develop payment portal for fines and fees
+Enable payment history tracking
+Automate fine notifications to users
+Allow waiver or adjustment of fines by admin
+
+->Reporting and Analytics
+Generate weekly and monthly borrowing reports
+Create dashboard for real-time library analytics
+Track most borrowed and least borrowed books
+Develop overdue book report generation
+Enable fine collection and payment reports
+
+Backlogs
+Integrate library system with SMS/email notifications
+Develop mobile-friendly interface
+Add multilingual support to the library catalog
+Set up user feedback collection within the app
+Create data export functionality for external analysis
+
+Sprint 1: User and Basic System Setup
+Epic: User Account Management
+Tasks:
+Set up user registration and login
+Create role-based access (admin, librarian, user)
+Enable profile management (basic user info and settings)
+Develop password reset and account recovery features
+
+Sprint 2: Cataloging and Inventory Management
+Epic: Cataloging and Inventory
+Tasks:
+Build catalog entry and update system for new books
+Implement search functionality by title, author, genre
+Create inventory tracking for book availability
+Add feature to update and sync metadata with databases (if applicable)
+
+Sprint 3: Borrowing and Returning
+Epic: Book Borrowing and Returning
+Tasks:
+Develop book borrowing and return system
+Implement due date and renewal features
+Set up notifications for overdue books
+Create user borrowing history tracking
+Integrate barcode scanning (if using physical book barcodes)
+
+Sprint 4: Reservation and Holds
+Epic: Reservation and Hold System
+Tasks:
+Enable book reservation and hold system
+Create waiting list functionality for popular books
+Notify users when reserved books are available
+Set up automatic cancellation for unclaimed holds
+
+Sprint 5: Fine and Fee Management
+Epic: Fine and Fee Management
+Tasks:
+Develop overdue fine calculation
+Integrate payment system for fines
+Create payment history tracking
+Automate fine notifications to users
+Build fine waiver or adjustment option for admins
+
+Sprint 6: Reporting and Analytics
+Epic: Reporting and Analytics
+Tasks:
+Generate weekly and monthly reports on borrowing and fines
+Set up real-time dashboard for library statistics
+Create reporting for overdue books and most/least borrowed items
+Enable data export options for analytics and backup
