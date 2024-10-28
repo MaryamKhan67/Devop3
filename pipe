@@ -4,6 +4,8 @@ then please KEEP LOCAL HOST 9090
 give your username and password
 if you didnt give it will be in C:\Program Files\Apache Software Foundation\Tomcat 11.0\conf (users.xml)
 C:\Program Files\Apache Software Foundation\Tomcat 11.0\conf(server.xml for port checking)
+and for changing port number simply change it and stop and start the service
+
 ur is running without that changes but just to be sure
 (in the manual in jenkins file also changed username and password to tomcat one)
 
