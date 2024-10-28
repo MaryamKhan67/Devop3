@@ -1,9 +1,39 @@
-first create a repository
-then 
 $ git config --global user.name "MaryamKhan67"
 $ git config --global user.email "khanworkmaryam@gmail.com"
 
 then do cd
+Create a repository on GitHub
+git init
+git status
+git branch newbranchname
+git checkout newbranchname
+echo "Additional content for devops practice" > practice.txt
+git add practice.txt
+git commit -m "Added practice.txt for devopspractice branch"
+git checkout master
+git merge devopspractice
+git push origin devopspractice
+git reset --soft HEAD~1
+git reset --hard HEAD~1
+git log --oneline
+git revert <commit-hash>
+git branch pullbranch
+git checkout pullbranch
+git push origin pullbranch
+git clone https://github.com/yourusername/devop_prac.git
+git cherry-pick <commit-hash>
+git tag tag1
+git push origin tag1
+echo "Temporary change" >> sample.txt
+git stash
+git stash apply
+git branch
+git checkout devopspractice
+git tag
+git pull origin master
+git branch -d devopspractice
+git push origin --delete devopspractice
+
 
 
 
