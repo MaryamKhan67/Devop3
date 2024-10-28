@@ -5,6 +5,14 @@ if you didnt give it will be in C:\Program Files\Apache Software Foundation\Tomc
 ur is running without that changes but just to be sure
 (in the manual in jenkins file also changed username and password to tomcat one)
 
+go to manage jenkins->Tools->go to JDK installations and in ADD jdk
+keep JDK Name as JAVA_HOME
+JAVA_HOME as C:\Program Files\Java\jdk-21
+
+and scroll down and go to maven
+keep name as maven_devop
+and version in your pc was 3.9.9
+
 then go to jenkins and create a pipeline project 
 in defination select script from scm 
 in scm select git and paste the repository
