@@ -7,7 +7,7 @@ give lable name and remeber it(write in notepad)
 Now take rest the same and click on Save. 
 For connecting your newly created Node or Agent you have to run the below command on cmd or any terminal which you want(Windows one check).But do not run it
 But first, you have to download curl. 
-For this go to any browser and just search curl download and then select the version and download.(select first)
+For this go to any browser and just search curl download and then select the version and download curl 8.10.1 for Windows.(select first)
 After that extract the downloaded folder.(and copy the bin address)
 Now go to system variables edit and paste the path of the bin you have copied
 Now go to Manage Jenkins and then select security then go to the Agents section and select Random then click on save. 
