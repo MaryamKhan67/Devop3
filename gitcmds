@@ -5,37 +5,66 @@ then do cd
 Create a repository on GitHub
 git init
 git status
+
+git add .
+git commit -m "Initial commit"
+
 git branch newbranchname
 git checkout newbranchname
+
 echo "Additional content for devops practice" > practice.txt
 git add practice.txt
 git commit -m "Added practice.txt for devopspractice branch"
+
 git checkout master
-git merge devopspractice
-git push origin devopspractice
+git merge newbranch
+
+git remote add origin URL_OF_YOUR_REMOTE_REPO
+git remote -v
+git push origin newbranch
+
 git reset --soft HEAD~1
 git reset --hard HEAD~1
+
 git log --oneline
-git revert <commit-hash>
+git add .
+git commit -m "Save changes before revert"
+git revert 49482cb 
+(you will be taken to a vim editor)
+Press Esc to make sure you’re in command mode.
+Type :wq (stands for "write and quit") and press Enter.
+git stash
+git revert 49482cb
+git stash pop
+
+
 git branch pullbranch
 git checkout pullbranch
 git push origin pullbranch
 git clone https://github.com/yourusername/devop_prac.git
+
 git cherry-pick <commit-hash>
+
 git tag tag1
 git push origin tag1
 echo "Temporary change" >> sample.txt
+
 git stash
 git stash apply
+
 git branch
-git checkout devopspractice
+git checkout newbranch
 git tag
-git pull origin master
-git branch -d devopspractice
-git push origin --delete devopspractice
+git branch -d devopspractice(create a new branch then delete)
+//git push origin --delete devopspractice
+$ git pull origin newbranch
 
 
 
+cd /c/maryamtest2(where it is the files)
+git add .
+git commit -m "Add initial project files"
+git push origin master
 
 
 to logout
