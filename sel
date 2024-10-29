@@ -11,6 +11,9 @@ past pom.xml it should come in project tag only
 and past from below version tag
 same app.java in src/main/java copy
 
+To open the Package Explorer view in Eclipse IDE, follow these steps:
+Go to the top menu and click on Window -> Show View ->Package Explorer.
+
 create a repository
 in git bash
 cd then go to "C:\Users\irfan\eclipse-workspace\ops" paste it
