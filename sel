@@ -16,7 +16,7 @@ Go to the top menu and click on Window -> Show View ->Package Explorer.
 
 create a repository
 in git bash
-cd then go to "C:\Users\irfan\eclipse-workspace\ops" paste it
+cd then go to "C:\Users\irfan\eclipse-workspace\ops" paste it (where the maven project is created)
 git init
 git branch -m main
 git remote add origin [add your repository link do not add brackets]
